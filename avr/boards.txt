@@ -1,0 +1,63 @@
+################################################################################
+################################## Spinner 1 ###################################
+################################################################################
+spinner1.name=Alkenoid Spinner 1
+spinner1.upload.tool=avrdude
+spinner1.upload.protocol=avr109
+spinner1.upload.maximum_size=28672
+spinner1.upload.maximum_data_size=2560
+spinner1.upload.speed=57600
+spinner1.upload.disable_flushing=true
+spinner1.upload.use_1200bps_touch=true
+spinner1.upload.wait_for_upload_port=true
+spinner1.bootloader.tool=avrdude
+spinner1.bootloader.unlock_bits=0x3F
+spinner1.bootloader.lock_bits=0x2F
+spinner1.bootloader.low_fuses=0xFF
+spinner1.bootloader.high_fuses=0xD8
+spinner1.bootloader.extended_fuses=0xCB
+spinner1.bootloader.file=caterina/Caterina-promicro16.hex
+spinner1.build.board=AVR_PROMICRO
+spinner1.build.core=arduino:arduino
+spinner1.build.variant=promicro
+spinner1.build.mcu=atmega32u4
+spinner1.build.f_cpu=16000000L
+spinner1.build.vid=0x1b4f
+spinner1.build.pid.0=0x9205
+spinner1.build.pid.1=0x9206
+spinner1.build.pid=0x9206
+spinner1.build.usb_manufacturer="Alkerion"
+spinner1.build.usb_product="Alkenoid Spinner 1"
+spinner1.build.extra_flags={build.usb_flags}
+
+################################################################################
+################################## Spinner 2 ###################################
+################################################################################
+spinner2.name=Alkenoid Spinner 2
+spinner2.upload.tool=avrdude
+spinner2.upload.protocol=avr109
+spinner2.upload.maximum_size=28672
+spinner2.upload.maximum_data_size=2560
+spinner2.upload.speed=57600
+spinner2.upload.disable_flushing=true
+spinner2.upload.use_1200bps_touch=true
+spinner2.upload.wait_for_upload_port=true
+spinner2.bootloader.tool=avrdude
+spinner2.bootloader.unlock_bits=0x3F
+spinner2.bootloader.lock_bits=0x2F
+spinner2.bootloader.low_fuses=0xFF
+spinner2.bootloader.high_fuses=0xD8
+spinner2.bootloader.extended_fuses=0xCB
+spinner2.bootloader.file=caterina/Caterina-promicro16.hex
+spinner2.build.board=AVR_PROMICRO
+spinner2.build.core=arduino:arduino
+spinner2.build.variant=promicro
+spinner2.build.mcu=atmega32u4
+spinner2.build.f_cpu=16000000L
+spinner2.build.vid=0x1b4f
+spinner2.build.pid.0=0x9205
+spinner2.build.pid.1=0x9204
+spinner2.build.pid=0x9204
+spinner2.build.usb_manufacturer="Alkerion"
+spinner2.build.usb_product="Alkenoid Spinner 2"
+spinner2.build.extra_flags={build.usb_flags}
